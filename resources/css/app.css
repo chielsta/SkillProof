@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-serif: 'Fraunces', Georgia, Cambria, 'Times New Roman', serif;
+
+    /* Warm Editorial Palette (Pretty Little Marketer Adaptation) */
+    --color-canvas-warm: #FAF8F5;
+    --color-canvas-surface: #FFFFFF;
+    --color-stone-ink: #1C1917;
+    --color-stone-body: #57534E;
+    --color-stone-subtle: #78716C;
+    --color-stone-border: #E7E2DA;
+
+    /* Pastel Accent Colors */
+    --color-pastel-pink: #FCE7F0;
+    --color-pastel-pink-border: #F5BDD0;
+    --color-pastel-pink-ink: #832B4C;
+
+    --color-pastel-blue: #DEEFF9;
+    --color-pastel-blue-border: #BCE0F5;
+    --color-pastel-blue-ink: #194E73;
+
+    --color-pastel-sage: #E3ECE1;
+    --color-pastel-sage-border: #C8DAC4;
+    --color-pastel-sage-ink: #2D4825;
+
+    --color-pastel-yellow: #FEF4D1;
+    --color-pastel-yellow-border: #FDE48C;
+    --color-pastel-yellow-ink: #74520F;
+
+    /* SkillProof Status Tokens */
+    --color-status-proven: #22c55e;
+    --color-status-partial: #f59e0b;
+    --color-status-none: #ef4444;
+}
